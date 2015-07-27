@@ -1,5 +1,5 @@
 {
-  "name": "grep",
+  "name": "utilise.grep",
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,13 @@
   "devDependencies": {
     "chai": "^2.3.0",
     "coveralls": "^2.11.2",
-    "identity": "git+https://github.com/utilise/identity.git",
+    "utilise.identity": "*",
     "istanbul": "^0.3.13",
     "mocha": "^2.2.4",
     "mocha-lcov-reporter": "0.0.2"
   },
   "dependencies": {
-    "is": "git+https://github.com/utilise/is.git",
-    "to": "git+https://github.com/utilise/to.git"
+    "utilise.is": "*",
+    "utilise.to": "*"
   }
 }

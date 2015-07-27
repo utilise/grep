@@ -1,5 +1,5 @@
 var expect = require('chai').expect
-  , identity = require('identity')
+  , identity = require('utilise.identity')
   , grep = require('./')
   
 describe('grep', function() {
